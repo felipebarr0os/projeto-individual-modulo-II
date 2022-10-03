@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2? family= Big+Shoulders+Display:wght@600 & display=swap');
+body {
+    background-image: url(../img/Hacker\ -\ 91913.gif);
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+    font-family: "Big Shoulders Display",cursive;
+    height: 100px;
+
+ 
+
+}
+.banner{
+    
+    background-size: cover;
+    width: 50;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner video{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+  justify-content: center;
+    width: 100;
+    
+   
+}
+.banner .principal {
+    position: relative;
+    z-index: 1;
+    max-width: 100;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.banner .principal  {
+
+    margin: 0; 
+    padding: 0;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #fff; 
+}
+.banner .principal {
+
+    font-size: 1.5em;
+    color: #fff; 
+    
+} 
+.texto label, input{
+    text-transform: uppercase ; /**nome maisculo**/
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px ;
+}
+.codigo {  /* columa do escolha seu opção*/
+    
+    display: flex;
+    flex-direction:column;
+    margin: 30px 0;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.348);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 150px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    height: 25px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+     
+}
+.opcaocodigo label{ /* segunda columa do escolha seu opção*/
+   
+    background-color: rgba(255, 255, 255, 0.348);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center; /*centralizar as opção para codificação*/
+    align-items: center; /*centralizar o texto no aliamento */
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+  
+    display: flex;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 30px 220px;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: min-content;
+    background-color:rgba(255, 255, 255, 0.348);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;}
+
+    #passo{
+        
+        display: none;
+        margin: 30px 0;
+        height: 60px;
+        background-color:rgba(255, 255, 255, 0.348);
+        box-sizing: border-box;
+        border-radius: 15px;
+        padding:25px 20px ;
+        margin-top: 30px; 
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+        flex-direction: column;
+    }
+    

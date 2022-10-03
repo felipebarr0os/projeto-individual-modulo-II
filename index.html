@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo II</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+    <div class="scroll">
+        <div class="box"
+        ></div>
+    </div>
+    <div class="banner">
+        <video autoplay muted loop>
+            <source src="./video/Hacker - 91913.mp46" type="video/mp4">
+        </video>
+    <div class="principal"> <!--caixinha de digitação de texto-->
+            <h1> Codificação</h1>
+            
+        
+            <form onchange="validaIncremento()">
+                <div class="texto">
+                    <label for="mensagem" > Digite Seu Texto Aqui</label>
+                    <input type="text" id="mensagem" class="entrada">
+                </div>
+                <div class="codigo">
+                    <select class="selecao">
+                        <option value="" selected>--Escolha sua Opção--</option>
+                        <option value="cesar">Cifra de Cesar</option>
+                        <option value="b64">Base64</option>
+                    </select>
+                    <div id="passo">
+                        <p>Escolha seu passo</p>
+                        <input type="number" id="chave" value="0" >
+                    </div>
+                </div>
+            
+                <div class="opcaocodigo">
+                    <label for="codificar"><input type="radio" name="escolha" id="codificar" value="codificar">Codificar</label>
+                    <label for="decodificar"><input type="radio" name="escolha" id="decodificar" value="decodificar"> Decodificar</label>            
+                </div>
+                <button class="codifica" >Codificar</button>
+                <div class="mensagemdecodificada">
+                    <textarea class="saida" cols="30" rows="5"></textarea>
+                </div>
+                </div>
+
+    
+    </div>
+    <footer>
+       
+    </footer>
+   
+    <script src="script/script.js"></script>
+</body>
+</html>
